@@ -26,5 +26,9 @@ public class Main {
         ArrayList<Process> sjfList = copyProcesses(processes);
         SJF.schedule(sjfList);
         SJF.printResults(sjfList);
+
+        ArrayList<Process> srtfList = copyProcesses(processes);
+        SRTF.schedule(srtfList);
+        SRTF.printResults(srtfList);
     }
 }
